@@ -1,0 +1,46 @@
+function genQuote() {
+  var randNum = Math.floor(Math.random() * 37) + 1;
+  document.getElementById("quote").innerHTML = quotes[randNum];
+}
+
+//quote array
+var quotes = [
+  "he escrito a mi ex una noche de fiesta",
+  "he fingido estar en un videoclip cuando salgo de la ducha mientras pongo caras intensas en el espejo",
+  "he hecho un spoiler de Juego de Tronos",
+  "dudé de quién era el cuarto en el videoclip de Maluma",
+  "he hecho pis en una piscina con miedo por si aparecía el circulo rojo",
+  "he fingido que me llamaban para escapar de una cita",
+  "he estado más de tres días sin ducharme",
+  "me he apuntado al gimnasio pero no he ido jamás",
+  "he votado para que Cepeda se quede en OT",
+  "he stalkeado el instagram del el/la ex de mi novi@",
+  "me he dado el pisto en una entrevista de trabajo",
+  "he dicho Carpe Diem para convencer un amigo y salir de fiesta",
+  "he cantado en el Singstar “Cuando zarpa el amor” de Camela",
+  "he apuntado con la linterna mi boca para enseñarle las placas a un amigo",
+  "he abierto a la policía por haber hecho un fiestón en casa",
+  "me he imaginado siendo del sexo opuesto",
+  "he llamado mamá a mi profesora",
+  "me he reído con el humor de La Vida Moderno",
+  "me he pasado mi parada del tren volviendo de fiesta y he acabao en otra ciudad",
+  "he  perdido un iPhone",
+  "he llevado unas gafas de cristal solo por posturear",
+  "me autoavergüenzo de haber sido fan de Crepúsculo",
+  "he pesado la fruta, le he pegado el ticket y luego he metido más",
+  "mentí en el Yo Nunca",
+  "he estornudado y me ha salido un moco",
+  "he preguntado a alguien que no trabajaba en una tienda si tenía mi talla",
+  "he indicado mal un camino cuando me han preguntado",
+  "he olido mi propio pedo",
+  "he movido la boca aunque no me sepa la canción",
+  "he fingido un desmayo para darle dramatismo a una situación",
+  "he intentado mover cosas con la mente (sin resultado)",
+  "he flirteado con el novio de un amig@",
+  "he cotilleado a quién daba like mis exparejas",
+  "he mirado el papel después de ir al baño",
+  "he acosado por redes sociales a mi artista favorito",
+  "me he creído Mr Robot al instalar un programa pirata",
+  "he mandado un audio subidito de tono a mi madre por error",
+  "he matado a nadie",
+];
